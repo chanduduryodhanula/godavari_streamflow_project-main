@@ -1,0 +1,19 @@
+{
+  "data_path": "C:\\Users\\DivyaPrakashBurnwal\\Downloads\\godavari_streamflow_project\\godavari_streamflow_dataset.csv",
+  "output_dir": "C:\\Users\\DivyaPrakashBurnwal\\Downloads\\godavari_streamflow_project\\artifacts",
+  "best_model": "RandomForest",
+  "comparison_metrics": [
+    {
+      "Model": "RandomForest",
+      "MAE": 16.27457622709351,
+      "RMSE": 20.301187360411852,
+      "R2": 0.5743768357402552
+    },
+    {
+      "Model": "XGBoost",
+      "MAE": 16.824513949834422,
+      "RMSE": 20.960844945137993,
+      "R2": 0.5462674372365204
+    }
+  ]
+}
